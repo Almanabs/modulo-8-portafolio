@@ -1,0 +1,56 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar-custom {
+    background-color: #333;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  
+  main {
+    flex: 1;
+  }
+  
+  .page-container {
+    flex: 1;
+  }
+  
+  
+  .page-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  .vertical-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+  }
+  
+  
+  .vertical-card .row {
+    flex-direction: row;
+  }
+  
+  
+  .vertical-card .col-md-4 {
+    width: 100%;
+  }
+  
+  .vertical-card .col-md-8 {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  

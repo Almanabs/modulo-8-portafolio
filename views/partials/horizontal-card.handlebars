@@ -1,0 +1,39 @@
+<div class="col-md-4 mb-4">
+  <div class="card vertical-card mb-3">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <a href="#">
+          <img src="{{imagen_url}}" class="card-img-top img-fluid" alt="...">
+        </a>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{titulo}}</h5>
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="d-flex">
+              <button class="btn btn-primary me-gusta" data-id="{{id}}">Me gusta</button>
+               Me gusta ({{megusta}})
+              <button class="btn btn-danger no-me-gusta" data-id="{{id}}">No me gusta</button>
+               No me gusta ({{nomegusta}})
+            </div>
+            <div class="text-center text-md-start">
+              <small class="text-muted">Comentarios:</small>
+            </div>
+          </div>
+          <p class="card-text">{{descripcion}}</p>
+          <hr>
+          <div class="comentarios">
+            <!-- Aquí se mostrarán los comentarios -->
+          </div>
+          <form>
+            <div class="mb-3">
+              <label for="nuevo-comentario" class="form-label">Escribir comentario:</label>
+              <textarea class="form-control" id="nuevo-comentario" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar comentario</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
